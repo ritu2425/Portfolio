@@ -1,0 +1,87 @@
+#skill{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.skilltitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.skillD{
+    font-weight: 600;
+    font-size: 2rem;
+    max-width: 50rem;
+    padding: 1rem 2rem;
+}
+.skillB{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+
+}
+.proImg{
+    
+
+    object-fit: cover;
+    height: 25rem;
+    width: 30rem;
+    margin: 0.5rem;
+
+}
+.text{
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.btns{
+    padding: 2 10rem;;
+    cursor: pointer;
+    box-sizing: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+    
+
+}
+.view{
+    background-color:rgb(28, 185, 151);
+    padding: 2px 2px;
+    margin-right: 5rem;
+    
+}
+.source{
+    background-color:rgb(28, 185, 151);
+    padding: 2px 2px;   
+}
+@media screen and(max-width:420px) {
+    .text{
+        font-size: 5w;
+
+    }
+    .proImg{
+        height: 2.25rem;
+        width: 2rem;
+    }
+    
+}
+
